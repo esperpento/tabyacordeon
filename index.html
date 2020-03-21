@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="mainstyle.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+        <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Floralis Generica</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Bellas Artes</a> </li>
+	    <li class="nav-item"> <a class="nav-link" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Caminito</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="#paneTwo4" role="tab" id="hatstab4" data-toggle="tab" aria-controls="hats">Teatro Colon</a></li>
+		<li class="nav-item"> <a class="nav-link" href="#paneTwo5" role="tab" id="hatstab5" data-toggle="tab" aria-controls="hats">Ave. 9 de julio</a></li>
+		<li class="nav-item"> <a class="nav-link" href="#paneTwo6" role="tab" id="hatstab6" data-toggle="tab" aria-controls="hats">San Telmo</a></li>
+        <!-- Dropdown -->
+       
+      </ul>
+      <!-- Content Panel -->
+      <div id="clothingnavcontent1" class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+          <img src="images/home.jpg" width="1200" height="800" alt=""/>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+            <img src="images/floralis generica.jpg" width="1200" height="800" alt=""/>
+			<p>La Floralis Genérica es una escultura metálica situada en la Plaza de las Naciones Unidas, Avenida Figueroa Alcorta, de la Ciudad Autónoma de Buenos Aires, obsequiada a dicha ciudad por el arquitecto argentino Eduardo Catalano</p>
+        </div>
+		<div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+            <img src="images/bellas artes.jpg" width="1200" height="800" alt=""/>
+			<p>El Museo Nacional de Bellas Artes, ubicado en la Ciudad de Buenos Aires, es una de las instituciones públicas de arte más importantes de Argentina. Alberga un patrimonio sumamente diverso, que incluye más de 12.000 piezas, entre pinturas, esculturas, dibujos, grabados, textiles y objetos.</p>
+        </div>
+		<div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+            <img src="images/Caminito.jpg" width="1200" height="800" alt=""/>
+			<p>Caminito es un callejón museo y un pasaje, de gran valor cultural y turístico, ubicado en el barrio de La Boca de la ciudad de Buenos Aires, Argentina. El lugar adquirió significado cultural debido a que inspiró la música del famoso tango Caminito, compuesta por Juan de Dios Filiberto. </p>
+        </div>
+		<div role="tabpanel" class="tab-pane fade" id="paneTwo4" aria-labelledby="hatstab4">
+           <img src="images/teatro colon.jpg" width="1200" height="800" alt=""/>
+			<p>El Teatro Colón es un teatro de ópera de la ciudad de Buenos Aires. Por su tamaño, acústica y trayectoria, ha llegado a ser considerado como el mejor teatro lírico del mundo.</p>
+        </div> 
+		<div role="tabpanel" class="tab-pane fade" id="paneTwo5" aria-labelledby="hatstab5">
+           <img src="images/obelisco.jpg" width="1200" height="800" alt=""/>
+			<p>La avenida 9 de Julio es una de las arterias principales de la Ciudad de Buenos Aires, capital de la República Argentina. Recorre alrededor de tres kilómetros en pleno centro de la ciudad, comunicando los nudos de transporte y las principales terminales ferroviarias en el barrio de Retiro y en Plaza Constitución.</p>
+        </div> 
+		<div role="tabpanel" class="tab-pane fade" id="paneTwo6" aria-labelledby="hatstab6">
+          <img src="images/san telmo.jpg" width="1200" height="800" alt=""/>
+		  <p>Las galerías de arte temporales, los bares nocturnos y los murales callejeros le dan al viejo San Telmo un ambiente bohemio. Repleta de anticuarios y rústicos restaurantes de carne, la calle Defensa atraviesa la plaza Dorrego, que alberga un mercado de pulgas y artistas callejeros que atraen a los turistas todos los domingos. En el parque Lezama, los senderos serpentean alrededor de altos árboles de jacarandá y el italiano Museo Histórico Nacional. El barrio cuenta con muchos establecimientos que ofrecen cenas con espectáculos de tango.</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.0.0.js"></script>
+  <div class="container-fluid">
+    <div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Tour Operadoras </a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body"><ul><li>Tangol</li><li>Cynsal Tour Gruop</li><li>Organizacion Piamonte</li></ul></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Aerolineas  </a> </h5>
+        </div>
+        <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+          <div class="card-body"><ul><li>Iberia</li><li>Latam Airlines Group</li><li>United</li><li>Air Europa</li></ul></div>
+        </div>
+      </div>
+		
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Dias Festivos </a> </h5>
+        </div>
+        <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body"><ul><li>Año Nuevo: 1 de enero</li> <li>Día Nacional de la Memoria por la Verdad y la Justicia: 24 de marzo</li><li>Día del Veterano y de los Caídos en la Guerra de Malvinas: 2 de abri</li><li>Día de la Revolución de Mayo: 25 de may</li><li>Paso a la Inmortalidad del General D. Manuel Belgrano: 20 de juni</li><li>Día de la Independencia: 9 de julio</li><li>Paso a la Inmortalidad del General D. José de San Martín: 17 de agosto</li><li>Día de la Soberanía Nacional: 20 de noviembre</li><li>Día de la Inmaculada Concepción: 8 de diciembre</li><li>Navidad: 25 de diciembre</li> </ul></div>
+        </div>
+      </div>
+		
+	  <div class="card">
+        <div class="card-header" role="tab" id="headingThree2">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree2" role="button" aria-expanded="false" aria-controls="collapseThree2">Otros Sitios de interes </a> </h5>
+        </div>
+        <div id="collapseThree2" class="collapse" role="tabpanel" aria-labelledby="headingThree2" data-parent="#accordion1">
+          <div class="card-body"><ol> <li>Cabildo y Plaza de Mayo</li><li>Plaza del Congreso</li><li>Calle Florida</li><li>Museo de Arte Decorativo</li><li>Cementerio la Recoleta</li></ol></div>
+        </div>
+		  
+      </div>
+		<div class="card">
+        <div class="card-header" role="tab" id="headingThree3">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree3" role="button" aria-expanded="false" aria-controls="collapseThree3"> Ciudades Cercanas </a> </h5>
+        </div>
+        <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body"><ol> <li>Lujan</li><li>San Antonio de Areco</li><li>Ciudad de la Plata</li></ol></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
